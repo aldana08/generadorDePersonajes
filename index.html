@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Yanone+Kaffeesatz&display=swap" rel="stylesheet">    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div id="contenido" class="contenido">
+            <div class="row">
+                <div class="col-md-4 offset-md-4">
+                    <img class="img-fluid" src="./img/cabecera.jpg" alt="cabecera">
+                </div>
+            </div>
+            <form class="formulario" action="#" id="generar-nombre">
+                <div class="row">
+                    <div class="col-md-4 offset-md-4">
+                        <label for="origen">Nombre del personaje:</label>
+                        <select class="u-full-width" id="origen">
+                            <option value=''>-- Seleccione --</option>
+                            <option value="Rick Sanchez">Rick Sanchez</option>
+                            <option value="Morty Smith">Morty Smith</option>
+                            <option value="Summer Smith">Summer Smith</option>
+                            <option value="Beth Smith">Beth Smith</option>
+                            <option value="Jerry Smith">Jerry Smith</option>
+                            <option value="Abadango Cluster Princess">Abadango Cluster Princess</option>
+                            <option value="Abradolf Lincler">Abradolf Lincler</option>
+                            <option value="Adjudicator Rick">Adjudicator Rick</option>
+                            <option value="Agency Director">Agency Director</option>
+                            <option value="Alan Rails">Alan Rails</option>
+                            <option value="Albert Einstein">Albert Einstein</option>
+                            <option value="Alexander">Alexander</option>
+                            <option value="Alien Googah">Alien Googah</option>
+                            <option value="Alien Morty">Alien Morty</option>
+                            <option value="Alien Rick">Alien Rick</option>
+                            <option value="Toxic Rick">Toxic Rick</option>
+                            <option value="Amish Cyborg">Amish Cyborg</option>
+                            <option value="Annie">Annie</option>
+                            <option value="Antenna Morty">Antenna Morty</option>
+                            <option value="Antenna Rick">Antenna Rick</option>
+                            <option value="Ants in my Eyes Johnson">Ants in my Eyes Johnson</option>
+                        </select>
+<!--
+                        <label for="genero">Genero:</label>
+                        <select class="u-full-width" id="genero">
+                                <option value=''>-- Seleccione --</option>
+                                <option value="Male" selected>Hombre</option>
+                                <option value="Female">Mujer</option>
+                                <option value="unknown">Unknown</option>
+                        </select>
+-->
+                      <input class="button-primary u-full-width boton" type="submit" value="Generar">
+                    </div>
+
+                    <div class="col-12">
+                        
+                        <div id="resultado" class="row"></div>
+                    </div>
+                </div>
+                
+            </form>
+
+        </div>
+    </div>
+    
+    <script src="js/moment.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+</html>

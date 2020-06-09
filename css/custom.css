@@ -1,0 +1,147 @@
+body {
+    background:black !important; 
+    /*background: -webkit-linear-gradient(to right, rgb(65, 67, 70), rgb(114, 122, 124)) !important;  
+    background: linear-gradient(to right,rgb(65, 67, 70), rgb(114, 122, 124)) !important; */
+}
+.contenido {
+    margin-top: 40px !important;
+}
+h1 {
+    color: white !important;
+    text-align: center !important;
+    font-size: 45px !important;
+    font-family: 'Yanone Kaffeesatz', sans-serif; 
+}
+
+h2{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: white !important;
+    font-size: 40px !important;
+}
+
+.formulario {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px!important;
+    margin-top: -40px;
+}
+
+.boton{
+    background-color:#80FF00 !important;
+    border:1px solid #088A68 !important;
+    margin-top: 30px !important;
+}
+
+.lista {
+    list-style: none!important;
+    width: 80%!important;
+    text-align: center!important;
+    margin: 0 auto!important;
+    padding: 20px!important;
+    border: 1px solid #56CCF2!important; 
+    background: rgb(219, 246, 255)!important; 
+}
+.lista li:last-child{
+    margin:0!important;
+}
+
+.p-location{
+    float: left;
+    width: 60%;
+    text-align: left;
+    margin: 0;
+}
+
+.p-origin{
+    float: left;
+    width: 60%;
+    text-align: left;
+    margin: 0;
+}
+
+.s-location{
+    display: block;
+    width: 40%;
+    text-align: left;
+    float: left;
+    height: 75px;
+    margin: 0;
+}
+
+.s-origin{
+    display: block;
+    width: 40%;
+    text-align: left;
+    float: left;
+    height: 75px;
+    margin: 0;
+}
+
+.card-contenedor{
+    background: linear-gradient(70deg, green, yellow) !important;
+    width: 100% !important;
+    padding: 20px !important;
+    float: left !important;
+    margin-bottom: 15px;
+}
+
+.card .list-group{
+    list-style: none !important;
+    
+}
+
+.titulo-card{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: white !important;
+    font-size: 30px !important;
+}
+
+.parrafo-card{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 15px !important; 
+}
+
+label {
+    font-size: large !important;
+    font-family: 'Fjalla One', sans-serif;
+    color: white !important;
+}
+
+select {
+    font-size: medium !important;
+    border-radius: 3px !important;
+}
+
+.origen {
+    margin-top: 0px;
+    padding-bottom: 5px;
+    padding-top: 0px;
+}
+
+.lista{
+    border-radius: 3px !important;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px !important;
+    font-family: 'Fjalla One', sans-serif;
+    color: rgb(65, 67, 70) !important;
+}
+
+.firma{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 425px) {
+
+    .lista{
+        padding: 12px !important;
+        text-align: left!important;
+        width: 100%!important;
+    }
+    .formulario{
+        padding: 15px!important;
+        margin-top: -10px!important;
+    }
+
+}
+
